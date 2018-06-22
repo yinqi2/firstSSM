@@ -10,7 +10,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
+/**
+ * user服务bean
+ * @author Administrator
+ *
+ */
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
