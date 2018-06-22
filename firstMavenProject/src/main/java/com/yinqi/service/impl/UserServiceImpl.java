@@ -12,7 +12,8 @@ import java.util.List;
 
 /**
  * user服务bean
- * @author Administrator
+ * @author 尹棋
+ * 日期： 2018年6月22日
  *
  */
 @Service("userService")
