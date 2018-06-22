@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
         return userMapper.insertUser(user);
     }
 
-    //这是根据名称查找
+    //这是根据名称的查寻
     public List<User> findByname(String username) {
     	
         return userMapper.queryByname(username);
