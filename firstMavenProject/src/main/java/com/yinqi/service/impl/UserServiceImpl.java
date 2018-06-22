@@ -1,6 +1,4 @@
-
 package com.yinqi.service.impl;
-
 import com.yinqi.bean.User;
 import com.yinqi.exception.AgeException;
 import com.yinqi.exception.NameException;
@@ -13,7 +11,8 @@ import java.util.List;
 
 /**
  * user服务bean
- * @author 尹棋
+ * 作者： 尹棋
+ * 日期： 2018年6月22日
  *
  */
 @Service("userService")
