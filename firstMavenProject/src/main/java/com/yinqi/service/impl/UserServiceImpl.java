@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * user服务bean
- * @author Administrator
+ * @author 尹棋
  *
  */
 @Service("userService")
