@@ -10,9 +10,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
+	//根据类型自动转入
     @Autowired
     protected UserMapper userMapper;
 
