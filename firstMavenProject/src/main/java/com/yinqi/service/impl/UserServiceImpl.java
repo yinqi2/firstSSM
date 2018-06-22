@@ -1,5 +1,5 @@
-package com.yinqi.service.impl;
 
+package com.yinqi.service.impl;
 import com.yinqi.bean.User;
 import com.yinqi.exception.AgeException;
 import com.yinqi.exception.NameException;
@@ -19,6 +19,7 @@ import java.util.List;
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
+	//根据类型自动转入
     @Autowired
     protected UserMapper userMapper;
 
