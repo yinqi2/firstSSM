@@ -30,10 +30,8 @@ public class UserServiceImpl implements UserService {
         }
         return userMapper.insertUser(user);
     }
-
      // name查询这是根据名称
     public List<User> findByname(String username) {
-    	
         return userMapper.queryByname(username);
     }
 }
