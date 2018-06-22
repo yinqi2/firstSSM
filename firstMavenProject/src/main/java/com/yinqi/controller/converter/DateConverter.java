@@ -7,6 +7,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.Pattern;
 
+/**
+ * 创建日期格式转换器
+ *
+ */
 public class DateConverter implements Converter<String, Date> {
     @Override
     public Date convert(String s) {
