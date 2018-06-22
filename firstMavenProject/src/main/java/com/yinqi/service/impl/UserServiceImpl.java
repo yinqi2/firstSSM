@@ -32,6 +32,7 @@ public class UserServiceImpl implements UserService {
     }
 
     public List<User> findByname(String username) {
+    	
         return userMapper.queryByname(username);
     }
 }
