@@ -26,7 +26,7 @@ public class UserServiceImpl implements UserService {
             throw new NameException("名称不符合规范。");
         }
         if (user.getUserage() > 40 || user.getUserage()<18){
-            throw new AgeException("年龄不符合！");
+            throw new AgeException("年龄不符合。");
         }
         return userMapper.insertUser(user);
     }
