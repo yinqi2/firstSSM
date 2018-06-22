@@ -23,7 +23,7 @@ public class UserServiceImpl implements UserService {
     public int insertUser(User user) throws Exception {
 
         if ("".equals(user.getUsername().trim())){
-            throw new NameException("名称不符合规范.");
+            throw new NameException("名称不符合规范！");
         }
         if (user.getUserage() > 40 || user.getUserage()<18){
             throw new AgeException("年龄不符合");
