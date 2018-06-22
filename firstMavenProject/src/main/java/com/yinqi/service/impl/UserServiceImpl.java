@@ -10,13 +10,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 /**
  * user服务bean
- * @author 尹棋
+ * 作者： 尹棋
  * 日期： 2018年6月22日
  */
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
-	 //根据类型自动转入
+	//根据类型自动转入
     @Autowired
     protected UserMapper userMapper;
 
